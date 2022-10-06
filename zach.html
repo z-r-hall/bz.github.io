@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <div>
+    <h1>Race Registration!</h1>
+  </div>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form>
+    <label for="first">First Name</label>
+    <input type="text" name="first" id="first" placeholder="first name here" required>
+    <br>
+    <label for="last">Last Name</label>
+    <input type="text" name="last" id="last" placeholder="last name here">
+    <p>Select a Race:</p>
+    <label for="fun">Fun Run 5k</label>
+    <input type="radio" name="race" id="fun" value="fun">
+    <br>
+    <label for="half">Half Marathon</label>
+    <input type="radio" name="race" id="half" value="half">
+    <br>
+    <label for="full">Full Marathon</label>
+    <input type="radio" name="race" id="full" value="full">
+    <br>
+    <label for="username">Email</label>
+    <input type="email" name="username" id="username" placeholder="email">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="password" minlength="5" maxlength="10">
+    <br>
+    <label for="age">Select Age Group</label>
+    <select for="age">
+      <option value="" id="age">Select an option</option>
+      <option value="under18" id="age">Under 18</option>
+      <option value="eighteentothirty" id="age">18-30</option>
+      <option value="thirtyonetofifty" id="age">31-50</option>
+      <option value="fiftyoneplus" id="age">51+</option>
+    </select>
+    <br>
+    <label for="becca">Push me!!</label>
+    <button id="becca">Becca's Button</button>
+  </form>
+  <ul id="info"> </ul>
+  <script src="form.js"></script>
+</body>
+<footer></footer>
+
+</html>
